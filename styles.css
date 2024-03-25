@@ -1,0 +1,102 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: 'Montserrat', sans-serif; /* Cambio del font a Montserrat */
+    line-height: 1.6;
+}
+
+header {
+    background-color:white;
+    background-image: var(--bs-gradient);
+    padding: 20px;
+    text-align:center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif; /* Cambio del font a Montserrat */
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+main {
+    padding: 20px;
+}
+
+.feature {
+    margin-bottom: 20px;
+}
+
+.feature img {
+    max-width: 100%;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Verde */
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.button:hover {
+    background-color: #45a049; /* Verde scuro al passaggio del mouse */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.titolo{
+    color:orange;
+    font-family: 'Montserrat', sans-serif; /* Cambio del font a Montserrat */
+}
+
+.opzioni{
+    color: lightgreen;
+    font-family: 'Montserrat', sans-serif; /* Cambio del font a Montserrat */
+}
+
+.lezioni{
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bordo {
+        border: 5px dashed yellow; /* Colore del bordo nero con spessore 1px */
+        padding: 5px; /* Spazio intorno al testo */
+        display: inline-block; /* Per far sì che il bordo si adatti al contenuto */
+}
+
+.background{
+    background-image:url("https://cdn.gencraft.com/prod/user/7779784d-13c8-4f69-9f1c-873878b5547c/c23985ac-cd08-4f92-a81c-b2b0177bca21/image/image1_0.jpg?Expires=1711489849&Signature=TCrqeOyAUIcNM5ElRcYRMMwvfuikTjQqdIQsZOr-hHfqBWhGvRCKA6m78g-s~5e3UKxK94lGTubuIBKZaD4XxqlZ78bpg9wupB6V2UpXjwj99LQoyi~z5-tt7XbSpB0DW5WbXLqJU6k0BvBiOgR70sV1jL8Iqc3qngVVScUQnwbarNn2bB6ah4CNtiKHRzz04yPMsJYuKDyWTmNbLuorCNZWdeE9N6P67pe9OruipbyxQ8sfl2-8FeYCpOyuyx9EkgfzKV~wGTR7tlaZXvx6ISLZ2M~wlNEOp8PB8ggh5G8eTkrC5cgN-Jo8UmgXn~K9tNj1KlNTS5gxmOdsU9FGhw__&Key-Pair-Id=K3RDDB1TZ8BHT8")
+}
+.bg-success {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
+  }
