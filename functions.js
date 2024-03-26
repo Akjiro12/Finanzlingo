@@ -9,13 +9,20 @@ function lezioni (){
 
 }
 function contattaci (){
-    window.location.href="pagina_contattaci.html"
+    window.location.href="pagina_contattaci.html";
 }
 
 function indietro(){
     window.location.href="index.html"; 
 }
+function login(){
+  window.location.href="Log in.html";
+}
 
+function LogIn(){
+  window.location.href="Log in.html";
+  
+}
 
 var carousel = $(".carousel"),
     currdeg  = 0;

@@ -11,10 +11,16 @@ body {
 }
 
 header {
-    background-color:white;
     background-image: var(--bs-gradient);
     padding: 20px;
     text-align:center;
+    overflow: hidden;
+}
+.sinistra{
+    float: left;
+}
+.destra{
+    float: right;
 }
 
 header h1 {
@@ -128,27 +134,47 @@ input[type="submit"]:hover {
         display: inline-block; /* Per far sì che il bordo si adatti al contenuto */
 }
 
-.background{
-    background-image:url("https://cdn.gencraft.com/prod/user/7779784d-13c8-4f69-9f1c-873878b5547c/c23985ac-cd08-4f92-a81c-b2b0177bca21/image/image1_0.jpg?Expires=1711489849&Signature=TCrqeOyAUIcNM5ElRcYRMMwvfuikTjQqdIQsZOr-hHfqBWhGvRCKA6m78g-s~5e3UKxK94lGTubuIBKZaD4XxqlZ78bpg9wupB6V2UpXjwj99LQoyi~z5-tt7XbSpB0DW5WbXLqJU6k0BvBiOgR70sV1jL8Iqc3qngVVScUQnwbarNn2bB6ah4CNtiKHRzz04yPMsJYuKDyWTmNbLuorCNZWdeE9N6P67pe9OruipbyxQ8sfl2-8FeYCpOyuyx9EkgfzKV~wGTR7tlaZXvx6ISLZ2M~wlNEOp8PB8ggh5G8eTkrC5cgN-Jo8UmgXn~K9tNj1KlNTS5gxmOdsU9FGhw__&Key-Pair-Id=K3RDDB1TZ8BHT8")
-}
 .bg-success {
     --bs-bg-opacity: 1;
     background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
   }
+  
   .logo {
     display: flex; /* Utilizza il layout a flessione */
-    justify-content: center; /* Allinea gli elementi orizzontalmente al centro */
-    align-items: center; /* Allinea gli elementi verticalmente al centro */
-    width: 100%; /* Larghezza del DIV */
-    height: 100px; /* Altezza del DIV */
+    justify-content: left; /* Allinea gli elementi orizzontalmente al centro */
+    align-items: left; /* Allinea gli elementi verticalmente al centro */
+    width: 50%; /* Larghezza del DIV */
+    height: auto; /* Altezza del DIV */
 }
+.logo2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin:auto;
+    width: 100vw;
+    height: 100vh;
+}
+
+
 
 .logo img {
-    max-width: 100%; /* Imposta la larghezza massima dell'immagine al 100% del contenitore */
-    max-height: 100%; /* Imposta l'altezza massima dell'immagine al 100% del contenitore */
+    width:100%;
+    height: 100px;
+    max-width: 75%; /* Imposta la larghezza massima dell'immagine al 100% del contenitore */
+    max-height: 75%; /* Imposta l'altezza massima dell'immagine al 100% del contenitore */
     vertical-align: middle; /* Centra l'immagine verticalmente */
 }
+.ul{
+width: 50%;
+height: 100%;
+}
 
+.listabottoni{
+    display: flex;
+}
 
-
+.button-list button {
+    margin: 0 5px; /* Aggiungi spazio tra i bottoni regolando i valori dei margini */
+}
 

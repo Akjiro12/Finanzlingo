@@ -1,71 +1,53 @@
 <!DOCTYPE html>
-<html lang="it">
 <head>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.rtl.min.css" integrity="sha384-nU14brUcp6StFntEOOEBvcJm4huWjB0OcIeQ3fltAfSmuZFrkAif0T+UtNGlKKQv" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Finanzlingo</title>
+    <title>login</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style2.css">
     <script src="functions.js"></script>
 </head>
+<header>
+    <div class="logo2">
+        <img src="immagini/logo.png"> 
+    <br>
+    </div>
+    
+</header>
 <body>
 
-    <header class="bg-success titolo">
-    
-        <div class="logo">
-            <img src="immagini/logo.png">
+    <div class="Box">
+    <form action="#" class="login-form">
+        <h1 class="login-title">Login</h1>
+
+        <div class="input-box">
+            <i class='bx bxs-user'></i>
+            <input type="text" placeholder="Username">
         </div>
-        <nav>
-            <ul>
-                <li><a href="#", type="button" class="btn btn-outline-warning" onclick="indietro()">Home</a></li>
-                <li ><a href="#", type="button" class="btn btn-outline-warning" onclick="lezioni()">Lezioni</a></li>
-                <li ><a href="#", type="button" class="btn btn-outline-warning" onclick="chisiamo()">Chi siamo</a></li>
-                <li><a  href="#", type="button" class="btn btn-outline-warning" onclick="contattaci()">Contattaci</a></li>
-            </ul>
-        
-        </nav>
-    </header>
+        <div class="input-box">
+            <i class='bx bxs-lock-alt'></i>
+            <input type="password" placeholder="Password">
+        </div>
 
-    <login>
-        
-        <h3>Log in</h3>
-        
-        </login>
+        <div class="remember-forgot-box">
+            <label for="remember">
+                <input type="checkbox" id="remember">
+                Remember me
+            </label>
+            <a href="#">Forgot Password?</a>
+        </div>
 
-    <main>
-            <h2><strong>Perchè sceglierci?</strong></h2>
-            <br>
-                <h4><strong>Lezioni interattive </strong></h3>
-                <p>Partecipa a lezioni interattive quando e dove vuoi.</p>
-                <br>
-            </div>
-                <h3><strong >Salvataggio dei progressi</strong></h3>
-                  </div>
-                <p>Tieni conto dei tuoi progressi su tutti gli argomenti che ti proponieamo</p>
-                <div class="progress" role="progressbar" aria-label="Animated striped example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                    <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" style="width: 10%"></div>
-                  </div>
-            </div>
-            <br>
-            
-                <h3><strong>Community</strong></h3>
-                <p>Connettiti con altri utenti per rendere ancora più divertente la tua esperienza</p>
-                <br>
-            </div>
-        </section>
+        <p class="login-btn" onclick="indietro()">Login</p>
 
-        <section id="signup">
-            <h2>Inizia a studiare ora!</h2>
-            <p><a href="pagina_contattaci.html">Registrati</a> ed inizia la tua avventura nel mondo di Finanzlingo!</p>
-    </main>
-</section>
-    </main>
-
-    <footer>
-        <p>&copy; 2024 Language Learning Platform. All rights reserved.</p>
-        
-    </footer>
+        <p class="register">
+            Don't have an account?
+            <a href="#">Register</a>
+        </p>
+    </form>
+    </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
 </body>
 </html>
