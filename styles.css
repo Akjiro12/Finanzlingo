@@ -18,7 +18,7 @@ header {
 }
 
 header h1 {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     font-family: 'Montserrat', sans-serif; /* Cambio del font a Montserrat */
 }
 
@@ -72,11 +72,46 @@ footer {
     padding: 10px;
 }
 
-.titolo{
-    color:orange;
-    font-family: 'Montserrat', sans-serif; /* Cambio del font a Montserrat */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
 }
-
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    text-align: center;
+    color: #333;
+}
+form {
+    margin-top: 20px;
+}
+label, input, textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+input, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
 .opzioni{
     color: lightgreen;
     font-family: 'Montserrat', sans-serif; /* Cambio del font a Montserrat */
@@ -100,3 +135,20 @@ footer {
     --bs-bg-opacity: 1;
     background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
   }
+  .logo {
+    display: flex; /* Utilizza il layout a flessione */
+    justify-content: center; /* Allinea gli elementi orizzontalmente al centro */
+    align-items: center; /* Allinea gli elementi verticalmente al centro */
+    width: 100%; /* Larghezza del DIV */
+    height: 100px; /* Altezza del DIV */
+}
+
+.logo img {
+    max-width: 100%; /* Imposta la larghezza massima dell'immagine al 100% del contenitore */
+    max-height: 100%; /* Imposta l'altezza massima dell'immagine al 100% del contenitore */
+    vertical-align: middle; /* Centra l'immagine verticalmente */
+}
+
+
+
+
